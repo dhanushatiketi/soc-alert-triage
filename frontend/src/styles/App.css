@@ -1,0 +1,26 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 18px;
+  background-color: #f5f5f5;
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  color: #d32f2f;
+}
+
+.error-container h1 {
+  margin-bottom: 16px;
+}
+
+.error-container p {
+  font-size: 16px;
+}
